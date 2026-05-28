@@ -1,0 +1,13 @@
+torch
+transformers
+datasets
+accelerate
+bitsandbytes
+sentencepiece
+bert-score
+sacrebleu
+langdetect
+sentence-transformers
+pandas
+numpy
+scikit-learn
