@@ -3,9 +3,9 @@ from config import NUM_SAMPLES
 
 def build_xquad_dataset():
 
-    en_data = load_dataset("xquad", "xquad.en")["validation"]
-    zh_data = load_dataset("xquad", "xquad.zh")["validation"]
-    vi_data = load_dataset("xquad", "xquad.vi")["validation"]
+    en_data = load_dataset("google/xquad", "xquad.en")["validation"]
+    zh_data = load_dataset("google/xquad", "xquad.zh")["validation"]
+    vi_data = load_dataset("google/xquad", "xquad.vi")["validation"]
 
     samples = []
 
